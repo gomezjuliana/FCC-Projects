@@ -1,12 +1,20 @@
-.box {
-  border-style: solid;
-  border-color: black;
-  border-width: 5px;
-  background: #edf2ef;
+body {
+	background: #cbdf40;
+	color: #aa0000;
 }
+
 .text-boxes {
+  font-family: "Open Sans", Arial, sans-serif;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 20px;
   margin-bottom: 20px
+}
+
+h1, h2, h3 {
+	font-family: "Dancing Script", Arial, sans-serif;
+}
+
+a {
+	color: #dc2a2a;
 }
