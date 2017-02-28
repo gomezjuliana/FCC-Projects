@@ -1,0 +1,12 @@
+.box {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  background: #edf2ef;
+}
+.text-boxes {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
