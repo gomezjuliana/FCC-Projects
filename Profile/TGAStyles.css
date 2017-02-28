@@ -1,6 +1,10 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 body {
-	background: #cbdf40;
-	color: #aa0000;
+  background: #cbdf40;
+  color: #aa0000;
 }
 
 .text-boxes {
@@ -12,9 +16,9 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: "Dancing Script", Arial, sans-serif;
+  font-family: "Dancing Script", Arial, sans-serif;
 }
 
 a {
-	color: #dc2a2a;
+  color: #dc2a2a;
 }
