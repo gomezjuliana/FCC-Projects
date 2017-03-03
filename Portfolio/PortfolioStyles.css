@@ -47,12 +47,26 @@ h1 {
   font-size: 10em;
 }
 
-.aboutsection{
-  background-image: url(https://gomezjuliana.files.wordpress.com/2015/03/juliana-gomez-portrait-2.jpg);
-  background-position: no-repeat center fixed;
-  background-size: 100%;
-  padding-bottom:400px;
+.aboutsection img {
+  padding-left: 2%;
+  border-radius: 25px;
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
 }
+
+.aboutsection p {
+  float: right;
+  margin: 0 1.5%;
+  width: 63%
+}
+
+/*.aboutsection {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #6a0e96;
+  background: radial-gradient(#6a0e96, #000);
+}*/
 
 .text-primary{
   text-align: center;
@@ -72,6 +86,10 @@ h1 {
 p {
   padding-top: 15px;
   font-size: 15px;
+}
+
+.portfolio {
+  clear: both;
 }
 
 .contactsection{
