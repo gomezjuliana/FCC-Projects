@@ -4,6 +4,7 @@ body {
   background-color: #000; 
   font-family: 'Montserrat', sans-serif;
   color: white;
+  border: none;
 }
 
 header {
@@ -53,15 +54,11 @@ h3 {
 
 .aboutsection img {
   border-radius: 25px;
-  float: left;
-  margin-left: 4%;
-  width: 30%;
+  margin-left: 10%;
 }
 
 .aboutsection p {
-  float: right;
-  margin: 0 1.5%;
-  width: 63%
+  margin: 0 10%;
 }
 
 /*.aboutsection {
