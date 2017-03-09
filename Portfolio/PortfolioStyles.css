@@ -1,6 +1,6 @@
 body {
-  margin:0px; 
-  padding:0px;
+  margin:0; 
+  padding:0;
   background-color: #000; 
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -54,19 +54,11 @@ h3 {
 
 .aboutsection img {
   border-radius: 25px;
-  margin-left: 10%;
 }
 
 .aboutsection p {
   margin: 0 10%;
 }
-
-/*.aboutsection {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color: #6a0e96;
-  background: radial-gradient(#6a0e96, #000);
-}*/
 
 .text-primary{
   text-align: center;
@@ -102,7 +94,7 @@ p {
 
 .contactsection, footer{
   background-color: #924892;
-  margin: -1px 0 0;
+  margin: 0;
 }
 
 footer ul {  
@@ -111,4 +103,7 @@ footer ul {
   font-size: 14px;
   margin-bottom: 5%;
 }
+
+.row {
+  margin: 0;
 }
