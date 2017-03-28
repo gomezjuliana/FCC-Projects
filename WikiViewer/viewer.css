@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background-color: #6b6a6a;
+  color: black;
+}
+
+.form-control {
+  margin: 0 auto;
+  width:50%;
+}
+
+.btn-primary {
+  margin-top: 5%;
+  background-color: black;
+  color: #fffacd;
+  border: black;
+}
+
+.link {
+  color: black;
+  font-size: 25px;
+}
+
+.resultslink {
+  color: black;
+  text-align: left !important;
+}
+
+.well {
+  margin: 3% 5%;
+}

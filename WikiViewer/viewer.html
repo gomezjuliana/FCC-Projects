@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="viewer.css">
+
+</head>
+
+<body>
+
+<h1>Wikipedia Viewer</h1>
+<p><a class="link" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here to get a random article</a></p>
+<form>
+  <input class="form-control" type="text" id="searchterm" placeholder="What are you looking for?">
+  <button class="btn btn-primary" type="button" id="searchbutton" onclick="function()">Search</button>
+</form>
+<div class="well" id="searchresults"></div>
+
+<script src="viewer.js"></script>
+</body>
+</html>
